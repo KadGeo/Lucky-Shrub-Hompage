@@ -1,10 +1,16 @@
 {
   "name": "luck-shrub-homepage",
   "version": "1.0.0",
+  "description": "This is the homepage for an agricultural design company that also deals with the rental of plants",
+  "main": "Lucky Shrub Javascript.js",
   "scripts": {
-    "dev": "live-server"  // Adjust this command based on your setup
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server"
   },
-  "dependencies": {
-    "live-server": "^1.2.1"  // Add your dependencies here
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
   }
 }
