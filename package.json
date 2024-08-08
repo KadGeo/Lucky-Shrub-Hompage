@@ -1,0 +1,10 @@
+{
+  "name": "luck-shrub-homepage",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "live-server"  // Adjust this command based on your setup
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"  // Add your dependencies here
+  }
+}
