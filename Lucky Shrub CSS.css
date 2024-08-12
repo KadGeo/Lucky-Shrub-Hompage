@@ -1,0 +1,121 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+article h1{
+    text-align:center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header img {
+    max-width: 150px;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main section styling */
+main {
+    padding: 20px;
+}
+
+/* Gallery section styling */
+section article {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Carousel styling */
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    width: 70%;
+}
+
+.carousel-container img {
+    width: 33.33%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.carousel-btn:hover {
+    background-color: #555;
+}
+
+/* Footer styling */
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+footer div {
+    margin-bottom: 10px;
+}
+
+footer img {
+    max-width: 100px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #333;
+}
