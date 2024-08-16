@@ -6,10 +6,10 @@
 }
 
 article h1{
-    text-align:center;
+    text-align:justify;
 }
 
-article h1 p{
+h1 p{
     text-align:center;
     font-weight:bold;
 }
