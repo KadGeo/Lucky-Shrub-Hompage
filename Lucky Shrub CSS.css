@@ -9,9 +9,8 @@ article h1{
     text-align:center;
 }
 
-h1 p{
+article p{
     text-align:center;
-    font-wecenterold;
 }
 
 body {
@@ -117,7 +116,7 @@ footer div {
 }
 
 footer img {
-    max-width: 100px;
+    max-width: 5%;
 }
 
 footer p {
