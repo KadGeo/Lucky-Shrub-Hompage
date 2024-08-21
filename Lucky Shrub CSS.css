@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.grid-container {
+    displaay:flex;
+}
 
 article h1{
     text-align:center;
@@ -83,11 +86,11 @@ p {
 .carousel-container {
     display: flex;
     overflow: hidden;
-    width: 70%;
+    width: 50%;
 }
 
 .carousel-container img {
-    width: 33.33%;
+    width: 40%;
     transition: transform 0.5s ease-in-out;
 }
 
