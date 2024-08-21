@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .grid-container {
-    displaay:flex;
+    display:flex;
 }
 
 article h1{
